@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide App</title>
+    <link rel="stylesheet" href="skeleton/normalize.css">
+    <link rel="stylesheet" href="skeleton/skeleton.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Guide App</h1>
+<!-- 
+        <div class="info info-success">Başarılı</div>
+        <div class="info info-error">Hata</div> -->
+
+        <form id="guide-form">
+            <div>
+                <label for="name">Adı</label>
+                <input type="text" id="name" name="name" class="u-full-width">
+                <span class="u-full-width info info-error display-none" id="name_err_area"></span>
+            </div>
+            <div>
+                <label for="surname">Soyad</label>
+                <input type="text" id="surname" name="surname" class="u-full-width">
+                <span class="u-full-width info info-error display-none" id="surname_err_area"></span>
+            </div>
+            <div>
+                <label for="email">E-Posta</label>
+                <input type="email" id="email" name="email" class="u-full-width">
+                <span class="u-full-width info info-error display-none" id="email_err_area"></span>
+            </div>
+            <div>
+                <input type="submit" value="Kaydet" id="save-data-button" class="button-primary">
+            </div>
+        </form>
+        <hr>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Adı</th>
+                    <th>Soyadı</th>
+                    <th>E-Posta</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody class="person-list">
+                <!-- <tr>
+                    <td>Ahmet</td>
+                    <td>Altun</td>
+                    <td>ahmet.altun60@gmail.com</td>
+                    <td>
+                        <button type="button" title="Düzenle" class="btn btn-edit"><i class="far fa-edit"></i></button>
+                        <button type="button" title="Sil" class="btn btn-delete"><i class="far fa-trash-alt"></i></button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <!-- <script src="app.js"></script> -->
+    <script src="oop_concept.js"></script>
+</body>
+</html>

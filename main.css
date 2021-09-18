@@ -1,0 +1,37 @@
+.btn {
+    border:none;
+    outline: none;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.btn-edit {
+    color: #33d9b2;
+}
+
+.btn-delete {
+    color: #b33939;
+}
+
+.info {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    color: rgba(30, 39, 46,1.0);
+}
+
+.info-success {
+    border: 1px solid rgba(52, 172, 224,1.0);
+}
+
+.info-error {
+    border: 1px solid rgba(255, 82, 82,1.0);
+}
+
+.display-none {
+    display: none;
+}
+
+.far {
+    pointer-events: none;
+}
